@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    padding: 5px;
+}
+.box_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.box_small_container {
+    width: 500px;
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin-top: 10px;
+    background-color: black;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+input {
+    height: 40px;
+    width: 100%;
+    padding-inline: 1rem;
+    
+}
